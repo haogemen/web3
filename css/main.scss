@@ -109,6 +109,16 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	h1 {
+		font-size: 1.35em;
+		line-height: 1.75em;
+
+		@include breakpoint(small) {
+			font-size: 1.1em;
+			line-height: 1.65em;
+		}
+	}
+
 	h2 {
 		font-size: 1.35em;
 		line-height: 1.75em;
@@ -1384,7 +1394,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		width: 100%;
 		z-index: _misc(z-index-base);
 
-		h1 {
+		/*h1 {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
 			height: inherit;
 			left: 1.25em;
@@ -1402,7 +1412,7 @@ $baseurl: '{{ site.baseurl }}/images';
 					font-size: 0.8em;
 				}
 			}
-		}
+		}********************/
 
 		nav {
 			height: inherit;
@@ -1469,10 +1479,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		&.alt {
 			background: transparent;
 
-			h1 {
+			/*****h1 {
 				@include vendor('pointer-events', 'none');
 				opacity: 0;
-			}
+			}****/
 		}
 	}
 
