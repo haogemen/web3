@@ -116,7 +116,7 @@ $baseurl: '{{ site.baseurl }}/images';
     		-webkit-text-stroke-color: #f9f9f9;
 
 		@include breakpoint(small) {
-			font-size: 7.1em;
+			font-size: 4em;
 		}
 	}
 
